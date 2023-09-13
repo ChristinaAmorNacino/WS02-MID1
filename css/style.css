@@ -11,9 +11,14 @@ html, body{
         text-align: center;
     }
 
+    
     h1{
+        font-family: serif;
         font-size: 90px;
         color: rgb(185,219,123);
+    }
+    h2{
+        font-family: sans-serif;
     }
 
     header img{
@@ -36,7 +41,7 @@ html, body{
 
     p.caption{
         font-size: 16px;
-        color: rgb(46, 95, 53);
+        color: rgb(40, 75, 45);
         font-style: italic;
     }
 
@@ -50,6 +55,19 @@ html, body{
         color:  rgba(246, 5, 5, 0.947);
         text-decoration: none;
     }
+    
+    a:active {
+        color: rgb(30, 139, 212);
+    }
+    
+    a[tabindex]:focus {
+        color:rgb(57, 57, 204);
+        outline: none;
+    }
+
+    a:hover { color: blue; 
+        text-decoration: none; 
+        font-weight: none; }
 
     .l{
         color: rgb(224, 125, 106);
